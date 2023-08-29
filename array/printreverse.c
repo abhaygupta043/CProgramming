@@ -1,6 +1,6 @@
 # include<stdio.h>
 int main(){
-    /*fetch 5 elements from user and print in reverse order...*/
+    /*fetch 5 elements from user and print in reverse order.xyz..*/
     int y=5;
     int arr[5];
     for(int i=0;i<5;i++){
