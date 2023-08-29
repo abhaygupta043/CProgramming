@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
+    // take students mark from user assuming indentation as roll no. and print roll no. having marks less than 35...  
     int arr[5];
 for(int i=0;i<5;i++){
         printf("enter element:");

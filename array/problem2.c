@@ -1,5 +1,7 @@
 #include<stdio.h>
 int main(){
+    /* change the value of all odd indexed elements to
+     its second multiple and increment all even indexed value by 10*/ 
     int n,temp;
     printf("enter size of arr:");
     scanf("%d",&n);
@@ -15,4 +17,5 @@ int main(){
         else arr[i]*=2;
     }
     for(int i=0;i<n;i++) printf("%d ",arr[i]);
+    return 0;
 }
