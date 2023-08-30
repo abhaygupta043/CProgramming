@@ -1,9 +1,11 @@
 #include<stdio.h>
 int main(){
+    /*take an array from user and reverse without using
+    any other array...*/
     int n,temp;
     printf("enter size of arr:");
     scanf("%d",&n);
-    int arr[n],sum=0;
+    int arr[n];
     for (int i=0;i<n;i++){
         printf("enter value of element:");
         scanf("%d",&arr[i]);
