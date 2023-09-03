@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
-    ///take day, month, year as input and print next date and add some constrain to the input
+    /*take day, month, year as input and print next date and 
+    add some constrain to the input...*/
     int year,month,day,mxd,error=0,leap=0;
     printf("enter value of year: ");
     scanf("%d",&year);
