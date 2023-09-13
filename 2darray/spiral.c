@@ -26,19 +26,23 @@ int main(){
             r-=1;
         }
         if(i==1+(p-1)*4){
-            for(int j=x;j<r;j++) printf("%d ",arr[x][j]);
+            for(int j=x;j<r;j++) 
+                printf("%d ",arr[x][j]);
             p+=1;
         }
         else if(i==2+(l-1)*4){
-            for(int j=y;j<q;j++) printf("%d ",arr[j][r-1]);
+            for(int j=y;j<q;j++) 
+                printf("%d ",arr[j][r-1]);
             l+=1;
         }
         else if(i==3+(e-1)*4){
-            for(int j=r-2;j>=x;j--) printf("%d ",arr[q-1][j]);
+            for(int j=r-2;j>=x;j--) 
+                printf("%d ",arr[q-1][j]);
             e+=1;
         }
         else{
-            for(int j=q-2;j>=y;j--) printf("%d ",arr[j][x]);
+            for(int j=q-2;j>=y;j--) 
+                printf("%d ",arr[j][x]);
             x+=1;
             y+=1;
         }
