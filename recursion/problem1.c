@@ -8,6 +8,7 @@ void fun(int n){
     return ;
 }
 int main(){
+    /*code to print from n to 1 in reverse order...*/
     int n;
     printf("enter no. from which you want reverse order:");
     scanf("%d",&n);
