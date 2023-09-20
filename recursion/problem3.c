@@ -7,7 +7,7 @@ void decinc(int n){
     return ;
 }
 int main(){
-    /*code to print decreasing and then in decreasing order..*/
+    /*code to print decreasing and then in increasing order..*/
     int n;
     printf("enter no. of terms you want to print in decreasing and increasing order:");
     scanf("%d",&n);
