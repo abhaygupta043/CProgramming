@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int n;
-    printf("enter no. upto which you want to find cantable no. :");
+    printf("enter no. upto which you want to find amicable no. :");
     scanf("%d",&n);
     int arr[n];
     for(int i=1;i<=n;i++){
